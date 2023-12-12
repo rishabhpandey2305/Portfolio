@@ -13,64 +13,62 @@ class HomePage extends StatelessWidget {
       children: [
         Expanded(
           flex: 8,
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                AspectRatio(
-                  aspectRatio: 1,
-                  child: Column(
-                    children: [
-                      Container(
-                        width: 240,
-                        height: 250,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.grey.withOpacity(0.1),
-                              spreadRadius: 5,
-                              blurRadius: 7,
-                              offset: Offset(0, 3),
-                            ),
-                          ],
-                        ),
-                        child: CircleAvatar(
-                          radius: 100,
-                          backgroundImage: AssetImage(assets.profileimage),
-                        ),
-                      ),
-                      const SizedBox(
-                        height: 20,
-                      ),
-                      Text(
-                        "Rishabh pandey",
-                        style: styles.developerName,
-                      ),
-                      Text(
-                        "Mobile App Developer",
-                        style: styles.shortBio,
-                      ),
-                      Column(
-                        children: [
-                          SocialBtn(
-                              url: "https://github.com/rishabhpandey2305",
-                              asset: assets.githubSVG),
-                          SocialBtn(
-                              url:
-                                  "https://www.linkedin.com/in/rishabh-pandey-995378231/",
-                              asset: assets.linkedinSVG),
-                          SocialBtn(
-                              url:
-                                  "https://instagram.com/rishabh_pandey_2305?igshid=MTNiYzNiMzkwZA==",
-                              asset: assets.instagramSVG),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              AspectRatio(
+                aspectRatio: 1,
+                child: Column(
+                  children: [
+                    Container(
+                      width: 240,
+                      height: 250,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.withOpacity(0.1),
+                            spreadRadius: 5,
+                            blurRadius: 7,
+                            offset: Offset(0, 3),
+                          ),
                         ],
-                      )
-                    ],
-                  ),
-                )
-              ],
-            ),
+                      ),
+                      child: CircleAvatar(
+                        radius: 100,
+                        backgroundImage: AssetImage(assets.profileimage),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Text(
+                      "Rishabh pandey",
+                      style: styles.developerName,
+                    ),
+                    Text(
+                      "Mobile App Developer",
+                      style: styles.shortBio,
+                    ),
+                    Column(
+                      children: [
+                        SocialBtn(
+                            url: "https://github.com/rishabhpandey2305",
+                            asset: assets.githubSVG),
+                        SocialBtn(
+                            url:
+                                "https://www.linkedin.com/in/rishabh-pandey-995378231/",
+                            asset: assets.linkedinSVG),
+                        SocialBtn(
+                            url:
+                                "https://instagram.com/rishabh_pandey_2305?igshid=MTNiYzNiMzkwZA==",
+                            asset: assets.instagramSVG),
+                      ],
+                    )
+                  ],
+                ),
+              )
+            ],
           ),
         ),
         Expanded(
