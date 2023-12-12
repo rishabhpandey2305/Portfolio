@@ -62,9 +62,6 @@ class HomePage extends StatelessWidget {
                         asset: assets.instagramSVG),
                   ],
                 ),
-                SizedBox(
-                  height: 159,
-                )
               ],
             ),
           ),
@@ -81,6 +78,9 @@ class HomePage extends StatelessWidget {
                       width: 600,
                       color: Colors.white,
                       child: Column(children: [
+                        SizedBox(
+                          height: 100,
+                        ),
                         Text(
                           "Hello, Namaste 🙏",
                           style: styles.pageHeading,
@@ -135,7 +135,7 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: 10,
+                          height: 1000,
                         ),
                       ]),
                     ),
