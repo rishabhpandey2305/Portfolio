@@ -130,7 +130,95 @@ class HomePage extends StatelessWidget {
                               Text(
                                 "Working as a T&P Co-ordinator in MBIT",
                                 style: styles.regularText,
-                              )
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
+                              Text(
+                                "Working as a T&P Co-ordinator in MBIT",
+                                style: styles.regularText,
+                              ),
                             ],
                           ),
                         ),
