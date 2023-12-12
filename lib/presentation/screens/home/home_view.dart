@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
               children: [
                 Container(
                   width: 240,
-                  height: 280,
+                  height: 400,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     boxShadow: [
