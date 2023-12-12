@@ -24,6 +24,9 @@ class AppTextStyles {
     color: colors.red,
     fontWeight: FontWeight.bold,
   );
+  final description =
+      GoogleFonts.leagueSpartan(fontSize: 16, color: colors.grey);
 
-  final regularText = GoogleFonts.leagueSpartan();
+  final regularText = GoogleFonts.leagueSpartan(
+      fontSize: 16, color: colors.black, fontWeight: FontWeight.w500);
 }
