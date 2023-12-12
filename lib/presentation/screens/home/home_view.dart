@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         body: Row(
       children: [
         Expanded(
-          flex: 3,
+          flex: 2,
           child: AspectRatio(
             aspectRatio: 1,
             child: Column(
@@ -67,7 +67,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
         Expanded(
-          flex: 4,
+          flex: 2,
           child: Row(
             children: [
               Container(
