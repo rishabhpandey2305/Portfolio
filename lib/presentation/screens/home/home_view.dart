@@ -78,67 +78,69 @@ class HomePage extends StatelessWidget {
               Container(
                 width: 600,
                 color: Colors.white,
-                child: Column(children: [
-                  const SizedBox(
-                    height: 100,
-                  ),
-                  Text(
-                    "Hello, Namaste 🙏",
-                    style: styles.pageHeading,
-                  ),
-                  const SizedBox(
-                    height: 40,
-                  ),
-                  Text(
-                    "I am currently pursuing a Bachelor's in Information Technology with a focus on Flutter development. I am seeking a role to grow, learn from an experienced team, and apply project experience successfully executed.",
-                    style: styles.regularText,
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "Projects",
-                          style: styles.shortBio,
-                        ),
-                        Text(
-                          "Civic Problem Registration System",
-                          style: styles.regularText,
-                        ),
-                        Text(
-                          "I Built a responsive Android application using Node.js , Flutter, and MongoDB to improve the civic registration system",
-                          style: styles.description,
-                        ),
-                        Text(
-                          "To Represent in New India Vibrant Hackathon 2023 as a solution for the given problem.",
-                          style: styles.description,
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
-                        Text(
-                          "Achievements",
-                          style: styles.shortBio,
-                        ),
-                        Text(
-                          "Qualified for SSIP New India Vibrant Hackathon Finale",
-                          style: styles.regularText,
-                        ),
-                        Text(
-                          "Working as a T&P Co-ordinator in MBIT",
-                          style: styles.regularText,
-                        )
-                      ],
+                child: SingleChildScrollView(
+                  child: Column(children: [
+                    const SizedBox(
+                      height: 100,
                     ),
-                  ),
-                  SizedBox(
-                    height: 10,
-                  ),
-                ]),
+                    Text(
+                      "Hello, Namaste 🙏",
+                      style: styles.pageHeading,
+                    ),
+                    const SizedBox(
+                      height: 40,
+                    ),
+                    Text(
+                      "I am currently pursuing a Bachelor's in Information Technology with a focus on Flutter development. I am seeking a role to grow, learn from an experienced team, and apply project experience successfully executed.",
+                      style: styles.regularText,
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Projects",
+                            style: styles.shortBio,
+                          ),
+                          Text(
+                            "Civic Problem Registration System",
+                            style: styles.regularText,
+                          ),
+                          Text(
+                            "I Built a responsive Android application using Node.js , Flutter, and MongoDB to improve the civic registration system",
+                            style: styles.description,
+                          ),
+                          Text(
+                            "To Represent in New India Vibrant Hackathon 2023 as a solution for the given problem.",
+                            style: styles.description,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Achievements",
+                            style: styles.shortBio,
+                          ),
+                          Text(
+                            "Qualified for SSIP New India Vibrant Hackathon Finale",
+                            style: styles.regularText,
+                          ),
+                          Text(
+                            "Working as a T&P Co-ordinator in MBIT",
+                            style: styles.regularText,
+                          )
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                  ]),
+                ),
               ),
             ],
           ),
