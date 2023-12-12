@@ -61,6 +61,9 @@ class HomePage extends StatelessWidget {
                             "https://instagram.com/rishabh_pandey_2305?igshid=MTNiYzNiMzkwZA==",
                         asset: assets.instagramSVG),
                   ],
+                ),
+                SizedBox(
+                  height: 159,
                 )
               ],
             ),
@@ -71,6 +74,7 @@ class HomePage extends StatelessWidget {
           child: Row(
             children: [
               SingleChildScrollView(
+                scrollDirection: Axis.vertical,
                 child: Column(
                   children: [
                     Container(
