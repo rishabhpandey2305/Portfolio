@@ -191,14 +191,14 @@ class HomePage extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            height: MediaQuery.of(context).size.height * 0.5,
+            height: MediaQuery.of(context).size.height * 0.4,
             child: AspectRatio(
               aspectRatio: 1,
               child: Column(
                 children: [
                   Container(
                     width: isMobile ? 120 : 240,
-                    height: isMobile ? 120 : 250,
+                    height: isMobile ? 180 : 250,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       boxShadow: [
@@ -247,7 +247,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
           Container(
-            height: MediaQuery.of(context).size.height * 0.5,
+            height: MediaQuery.of(context).size.height * 0.8,
             child: Container(
               width: isMobile ? double.infinity : 600,
               color: Colors.white,
