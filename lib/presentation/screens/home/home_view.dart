@@ -198,7 +198,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   Container(
                     width: isMobile ? 120 : 240,
-                    height: isMobile ? 160 : 250,
+                    height: isMobile ? 150 : 250,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       boxShadow: [
@@ -211,7 +211,7 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     child: CircleAvatar(
-                      radius: isMobile ? 60 : 100,
+                      radius: isMobile ? 80 : 100,
                       backgroundImage: AssetImage(assets.profileimage),
                     ),
                   ),
