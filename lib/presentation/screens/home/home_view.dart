@@ -70,74 +70,66 @@ class HomePage extends StatelessWidget {
           flex: 2,
           child: Row(
             children: [
-              SingleChildScrollView(
-                scrollDirection: Axis.vertical,
-                child: Column(
-                  children: [
-                    Container(
-                      width: 600,
-                      color: Colors.white,
-                      child: Column(children: [
-                        SizedBox(
-                          height: 100,
-                        ),
-                        Text(
-                          "Hello, Namaste 🙏",
-                          style: styles.pageHeading,
-                        ),
-                        const SizedBox(
-                          height: 40,
-                        ),
-                        Text(
-                          "I am currently pursuing a Bachelor's in Information Technology with a focus on Flutter development. I am seeking a role to grow, learn from an experienced team, and apply project experience successfully executed.",
-                          style: styles.regularText,
-                        ),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Projects",
-                                style: styles.shortBio,
-                              ),
-                              Text(
-                                "Civic Problem Registration System",
-                                style: styles.regularText,
-                              ),
-                              Text(
-                                "I Built a responsive Android application using Node.js , Flutter, and MongoDB to improve the civic registration system",
-                                style: styles.description,
-                              ),
-                              Text(
-                                "To Represent in New India Vibrant Hackathon 2023 as a solution for the given problem.",
-                                style: styles.description,
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text(
-                                "Achievements",
-                                style: styles.shortBio,
-                              ),
-                              Text(
-                                "Qualified for SSIP New India Vibrant Hackathon Finale",
-                                style: styles.regularText,
-                              ),
-                              Text(
-                                "Working as a T&P Co-ordinator in MBIT",
-                                style: styles.regularText,
-                              )
-                            ],
+              Container(
+                width: 600,
+                color: Colors.white,
+                child: SingleChildScrollView(
+                  child: Column(children: [
+                    Text(
+                      "Hello, Namaste 🙏",
+                      style: styles.pageHeading,
+                    ),
+                    const SizedBox(
+                      height: 40,
+                    ),
+                    Text(
+                      "I am currently pursuing a Bachelor's in Information Technology with a focus on Flutter development. I am seeking a role to grow, learn from an experienced team, and apply project experience successfully executed.",
+                      style: styles.regularText,
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Projects",
+                            style: styles.shortBio,
                           ),
-                        ),
-                        SizedBox(
-                          height: 1000,
-                        ),
-                      ]),
+                          Text(
+                            "Civic Problem Registration System",
+                            style: styles.regularText,
+                          ),
+                          Text(
+                            "I Built a responsive Android application using Node.js , Flutter, and MongoDB to improve the civic registration system",
+                            style: styles.description,
+                          ),
+                          Text(
+                            "To Represent in New India Vibrant Hackathon 2023 as a solution for the given problem.",
+                            style: styles.description,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Achievements",
+                            style: styles.shortBio,
+                          ),
+                          Text(
+                            "Qualified for SSIP New India Vibrant Hackathon Finale",
+                            style: styles.regularText,
+                          ),
+                          Text(
+                            "Working as a T&P Co-ordinator in MBIT",
+                            style: styles.regularText,
+                          )
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                      height: 10,
                     ),
                   ],
                 ),
