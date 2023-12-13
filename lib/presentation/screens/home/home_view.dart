@@ -158,7 +158,7 @@ class HomePage extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            height: MediaQuery.of(context).size.height * 0.8,
+            height: MediaQuery.of(context).size.height * 0.5,
             child: AspectRatio(
               aspectRatio: 1,
               child: Column(
