@@ -247,7 +247,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
           Container(
-            height: MediaQuery.of(context).size.height * 0.8,
+            height: MediaQuery.of(context).size.height * 0.5,
             child: Container(
               width: isMobile ? double.infinity : 600,
               color: Colors.white,
