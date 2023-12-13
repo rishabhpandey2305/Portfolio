@@ -75,9 +75,6 @@ class HomePage extends StatelessWidget {
                 color: Colors.white,
                 child: SingleChildScrollView(
                   child: Column(children: [
-                    const SizedBox(
-                      height: 100,
-                    ),
                     Text(
                       "Hello, Namaste 🙏",
                       style: styles.pageHeading,
