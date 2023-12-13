@@ -56,7 +56,8 @@ class HomePage extends StatelessWidget {
                   "Mobile App Developer",
                   style: styles.shortBio,
                 ),
-                Column(
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SocialBtn(
                         url: "https://github.com/rishabhpandey2305",
