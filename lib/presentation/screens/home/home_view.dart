@@ -198,7 +198,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   Container(
                     width: isMobile ? 120 : 240,
-                    height: isMobile ? 190 : 250,
+                    height: isMobile ? 160 : 250,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       boxShadow: [
