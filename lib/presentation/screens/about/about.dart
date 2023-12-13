@@ -3,8 +3,8 @@ import 'package:portfolio/presentation/resources/res.dart';
 import 'package:portfolio/presentation/screens/widgets/social_button.dart';
 import 'package:portfolio/presentation/screens/responsive_screen.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class AboutPage extends StatelessWidget {
+  const AboutPage({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Stack(

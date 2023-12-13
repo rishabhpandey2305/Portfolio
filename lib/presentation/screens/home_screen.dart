@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/presentation/screens/home/home_view.dart';
+import 'package:portfolio/presentation/screens/about/about.dart';
 
 class HOMESCREEN extends StatelessWidget {
   const HOMESCREEN({Key? key}) : super(key: key);
@@ -16,7 +16,7 @@ class HOMESCREEN extends StatelessWidget {
             child: PageView(
               scrollDirection: Axis.vertical, 
               children: [
-                const HomePage(),
+                const AboutPage(),
               ],
             ),
           )
