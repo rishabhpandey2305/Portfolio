@@ -17,39 +17,6 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // Widget _mobile(BuildContext context) {
-  //   return Padding(
-  //     padding: EdgeInsets.symmetric(horizontal: sizes.mediumPadding),
-  //     child: Column(
-  //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-  //       crossAxisAlignment: CrossAxisAlignment.center,
-  //       children: [
-  //         Expanded(
-  //           child: Padding(
-  //             padding: EdgeInsets.symmetric(horizontal: sizes.smallPadding),
-  //           ),
-  //         ),
-  //         SizedBox(width: sizes.pagePadding),
-  //         _content(context, isMobile: true),
-  //       ],
-  //     ),
-  //   );
-  // }
-
-  // Widget _desktop(BuildContext context) {
-  //   return Row(
-  //     // mainAxisAlignment: MainAxisAlignment.spaceBetween,
-  //     children: [
-  //       // Expanded(
-  //       //   child: Padding(
-  //       //     padding: EdgeInsets.symmetric(horizontal: sizes.smallPadding),
-  //       //   ),
-  //       // ),
-  //       // SizedBox(width: sizes.pagePadding),
-  //       _content(context, isMobile: false),
-  //     ],
-  //   );
-  // }
   Widget _desktop(BuildContext context) {
     return Row(
       children: [
@@ -117,7 +84,7 @@ class HomePage extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    "Hello, Namaste 🙏",
+                    "Namaste 🙏",
                     style: styles.pageHeading,
                   ),
                   const SizedBox(
@@ -255,7 +222,7 @@ class HomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Hello, Namaste 🙏",
+                    "Namaste 🙏",
                     style: styles.pageHeading,
                   ),
                   const SizedBox(
