@@ -1,6 +1,6 @@
 # portfolio
 
-A new Flutter project.
+Hello, Namaste
 
 ## Getting Started
 
